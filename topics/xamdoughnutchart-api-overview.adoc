@@ -1,0 +1,45 @@
+﻿////
+|metadata|
+{
+    "name": "xamdoughnutchart-api-overview",
+    "controlName": ["{DoughnutChartName}"],
+    "tags": ["API","Charting"],
+    "guid": "2e01bf32-72e3-493b-acb8-5dff3b4874c4",
+    "buildFlags": ["SL","WPF","WINFORMS"],
+    "createdOn": "2014-06-05T19:53:12.0258783Z"
+}
+|metadata|
+////
+
+= API Reference ({DoughnutChartName})
+
+=== Introduction
+
+This topic provides reference information about the key classes related to the  _{DoughnutChartName}_™ control.
+
+=== Topics
+
+The following table summarizes the purpose and functionality of the  _{DoughnutChartName}_  control’s featured properties.
+
+[options="header", cols="a,a"]
+|====
+|Class|Description
+
+| link:{DoughnutChartLink}.{DoughnutChartName}_members.html[{DoughnutChartName}]
+|Represents the _{DoughnutChartName}_ control.
+
+| link:{DoughnutChartLink}.ringseries_members.html[RingSeries]
+|Represents one ring in link:{DoughnutChartLink}.{DoughnutChartName}_members.html[{DoughnutChartName}] series.
+
+ifdef::win-forms,xaml,android[]
+| pick:[xaml,android=" link:{DoughnutChartLink}.sliceitem_members.html[SliceItem]"] 
+|pick:[xaml,android="Represents the data of"] pick:[xaml,android=" link:{DoughnutChartLink}.slice_members.html[Slice]"] pick:[xaml,android="element."]
+endif::win-forms,xaml,android[]
+
+ifdef::xaml,android[]
+| pick:[xaml,android=" link:{DoughnutChartLink}.slice_members.html[Slice]"] 
+|Represents a content control that holds a single chart slice. 
+
+endif::xaml,android[]
+
+|====
