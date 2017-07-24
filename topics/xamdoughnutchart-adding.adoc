@@ -96,7 +96,7 @@ ifdef::win-forms[]
 
 ** {ApiPlatform}{DoughnutChartAssembly}{ApiVersion}.dll
 
-** Infragistics4.Portable.Core.dll
+** {ApiPlatform}Portable.Core.dll
 
 endif::win-forms[]
 
